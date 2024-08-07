@@ -9,7 +9,7 @@ import {
 
 import 'react-toastify/dist/ReactToastify.css';
 import { ToastContainer } from 'react-toastify'
-import { MainRoutes } from './routes/mainRoutes.jsx'
+import MainRoutes from './routes/mainRoutes.jsx'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>

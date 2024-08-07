@@ -1,7 +1,7 @@
 import { createBrowserRouter } from "react-router-dom";
 import { Home } from "../pages/home";
 
-export const MainRoutes = createBrowserRouter([
+const MainRoutes = createBrowserRouter([
 
     {
         path: "/",
@@ -11,3 +11,5 @@ export const MainRoutes = createBrowserRouter([
             </App>
     }
 ])
+
+export default MainRoutes
